@@ -6,24 +6,11 @@
         #outer {
             background: #44accf;
             /* add CSS here */
-            position: absolute;
-	width: 100%;
-	height: 100%;
-	border:  solid #44accf;
-	
         }
 
         #inner {
             background: #ff9c34;
-            position: absolute;
-            padding:50%;
-	margin: 50px;
-  border:  solid #ff9c34;
-  width: 50%;
-	height:10px;
-	
-  
-  
+            /* and here */
         }
     </style>
 </head>
