@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Exercise #1: Page-level vs. inline CSS</title>
+    <title>Exercise #4:Backgrounds and colors</title>
     <style>
-        p {
-            color: blue;
-            font-size: 14pt;
-        }
+    p{
+        font-size:25px;
+    background-color:grey;
+    }
+    .first {
+    background:  url("https://t4.ftcdn.net/jpg/02/94/39/47/240_F_294394705_O7dz4ofzsaioltW7rkXkFyRa6Vj4ZIco.jpg") no-repeat left ;
+ /* background-image:  url("../images/confidential.jpg") no-repeat left ; Did not work with me*/
+  background-size: 400px 200px;
+    z-index:9999;
+    
+    }
     </style>
 </head>
 <body>
-<p>
+<p style="background-color:white;
+" class="first" >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia lorem eu porttitor luctus. Sed ac mauris
     vitae arcu consectetur tempor sed congue felis. Vivamus posuere scelerisque dapibus. Nam ultricies laoreet augue id
     semper. Sed eu lacus ac dolor volutpat ullamcorper at sed risus. Nunc sollicitudin bibendum varius. Donec laoreet
@@ -20,15 +28,13 @@
     quam nec leo. Nunc fermentum mauris viverra purus elementum, at bibendum dui fringilla. Nam ac lacus a leo iaculis
     pellentesque rhoncus sed quam.
 </p>
-
-<p style="color:black;">
+<p  style="background:grey;" >
     Etiam in ex quis eros hendrerit sollicitudin vitae iaculis neque. Vestibulum ornare nibh lectus, nec blandit justo
     efficitur in. Morbi et porta erat, quis tristique lorem. Nunc mollis egestas ligula, id iaculis mauris dapibus
     sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus
     vestibulum non augue scelerisque tincidunt. Vivamus dictum luctus neque, sed scelerisque quam faucibus vitae.
 </p>
-
-<p>
+<p  style="background:grey;" >
     Donec nec lacus et felis scelerisque iaculis a vitae nibh. Nullam in sapien condimentum erat interdum pretium eget
     sit amet ex. Duis sed enim nisl. Cras ut lacus vitae metus posuere vestibulum. Proin posuere tincidunt ipsum ut
     aliquam. Aenean lacinia urna mauris, quis volutpat nulla blandit et. Nam placerat porta ornare. Nunc pretium elit et
@@ -38,3 +44,4 @@
 </p>
 </body>
 </html>
+
