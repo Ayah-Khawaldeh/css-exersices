@@ -1,0 +1,25 @@
+body {
+  background-color:#f0f8ff;
+}
+div {
+  line-height: 1em;
+  width: 500px;
+  padding: 0.5em;
+  border-color: #333333 ;
+  border-width: 1px;
+  border-style: solid;
+  background-color:white;
+  Margin:1em;
+  direction: ltr;
+   
+   }
+       .b{
+       border:dotted#ff0000
+       }
+       #one{
+       color:#ff0000
+        }
+         #two{
+       color:#ff0000
+        }
+       
